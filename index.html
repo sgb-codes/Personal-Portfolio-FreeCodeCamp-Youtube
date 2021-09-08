@@ -35,10 +35,16 @@
       </button>
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item"><a href="#home">Home</a></li>
-          <li class="nav__item"><a href="#services">My Services</a></li>
-          <li class="nav__item"><a href="#about">About Me</a></li>
-          <li class="nav__item"><a href="#work">My Work</a></li>
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -129,8 +135,10 @@
 
     <!-- My Work -->
     <section class="my-work" id="work">
-      <h2 class="section__title">My Work</h2>
-      <p class="section__subtitle"></p>
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
 
       <div class="portfolio">
         <!-- Portfolio Item 01 -->
@@ -186,20 +194,28 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
       <a href="mailto:hello@jane.dev" class="footer__link">hello@jane.dev</a>
       <ul class="social-list">
         <li class="social-list__item">
-          <a href="" class="social-list__link"></a>a
+          <a href="https://codepen.io" class="social-list__link"
+            ><i class="fab fa-codepen"></i
+          ></a>
         </li>
         <li class="social-list__item">
-          <a href="" class="social-list__link"></a>b
+          <a href="http://dribble.com" class="social-list__link"
+            ><i class="fab fa-dribbble"></i
+          ></a>
         </li>
         <li class="social-list__item">
-          <a href="" class="social-list__link"></a>c
+          <a href="https://twitter.com" class="social-list__link"
+            ><i class="fab fa-twitter"></i
+          ></a>
         </li>
         <li class="social-list__item">
-          <a href="" class="social-list__link"></a>d
+          <a href="https://github.com" class="social-list__link"
+            ><i class="fab fa-github"></i
+          ></a>
         </li>
       </ul>
     </footer>
